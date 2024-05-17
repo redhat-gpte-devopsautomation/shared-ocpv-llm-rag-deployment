@@ -7,6 +7,8 @@ commonLabels:
 
 resources:
 # wave 0
+- cluster-role.yaml
+- cluster-role-binding.yaml 
 #- gp3-remove-default.yaml
 #- ceph-rbd-set-default.yaml
 # wave 1
