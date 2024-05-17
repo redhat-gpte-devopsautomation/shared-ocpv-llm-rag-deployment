@@ -8,7 +8,9 @@ commonLabels:
 resources:
 # wave 0
 - cluster-role.yaml
-- cluster-role-binding.yaml 
+- cluster-role-binding.yaml
+- resource-access-role.yaml
+- service-account-binding.yaml
 #- gp3-remove-default.yaml
 #- ceph-rbd-set-default.yaml
 # wave 1
@@ -19,5 +21,3 @@ resources:
 # wave 2
 - images-puller.yaml
 
-
-  
