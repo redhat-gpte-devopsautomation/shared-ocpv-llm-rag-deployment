@@ -9,32 +9,32 @@ spec:
       elements:
       - cluster: in-cluster
         name: shared-rag-minio-app
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/shared-rag-minio
       - cluster: in-cluster
         name: shared-rag-database-app
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/shared-rag-database
       - cluster: in-cluster
         name: shared-rag-llm-app
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/shared-rag-llm
       - cluster: in-cluster
         name: gradio-rag-app
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/gradio-rag
       - cluster: in-cluster
         name: pgvector-rag-deployment-app
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/pgvector-rag-deployment
       - cluster: in-cluster
         name: ds-rag-pipeline
-        repoURL: https://github.com/ritzshah/llm-rag-deployment.git
+        repoURL: https://github.com/redhat-gpte-devopsautomation/shared-ocpv-llm-rag-deployment.git
         targetRevision: main
         path: bootstrap-rag/ds-rag-pipelines
 #      - cluster: in-cluster
