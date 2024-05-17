@@ -27,5 +27,5 @@ def test_responsetime(endpoint):
         }, f)
 
 if __name__ == '__main__':
-    health_endpoint = "http://llm.ic-shared-llm.svc.cluster.local:3000" + "/health"
+    health_endpoint = "http://llm.ic-shared-rag-llm.svc.cluster.local:3000" + "/health"
     test_responsetime(health_endpoint)
