@@ -159,7 +159,7 @@ spec:
       volumes:
         - name: workbench-for-llm
           persistentVolumeClaim:
-            claimName: workbench-for-llm
+            claimName: ic-shared-llm-rag-workbench
         - name: elyra-dsp-details
           secret:
             secretName: ds-pipeline-config
